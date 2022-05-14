@@ -6,7 +6,7 @@ var pOne = [ ];
 var pTwo = [ ];
 var pThree = [ ];
 var pFour = [ ];
-var touch = true;
+//var touch = true;
 function generatePassword() { 
     for (var i = 0; i < 100; i++) {
             var numbersIndex = Math.floor(Math.random()*numbers.length);
@@ -54,13 +54,13 @@ function generatePassword() {
     // console.log(pFour);
 
     var passwordOne = pOne.slice(0,18);
-    console.log(passwordOne);
+    //console.log(passwordOne);
     var passwordTwo = pTwo.slice(0,18);
-    console.log(passwordTwo);
+    //console.log(passwordTwo);
     var passwordThree = pThree.slice(0,18);
-    console.log(passwordThree);
+    //console.log(passwordThree);
     var passwordFour = pFour.slice(0,18);
-    console.log(passwordFour);
+    //console.log(passwordFour);
 
     document.getElementById("password1").innerHTML = passwordOne;
     document.getElementById("password2").innerHTML = passwordTwo;
